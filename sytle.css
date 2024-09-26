@@ -21,7 +21,7 @@ font-family: "Manrope", system-ui;
 .container-header{
     padding-inline: 3rem;
     margin: 0 auto; 
-    max-width: 900px;
+    max-width: 1320px;
 
     display: grid; 
     grid-template-columns: auto 1fr auto auto;
@@ -78,7 +78,7 @@ font-family: "Manrope", system-ui;
 .wrapper-page1{
   padding-inline: 3rem;
     margin: 0 auto; 
-    max-width: 900px;
+    max-width: 1320px;
     height: 780px;
     border: 2px solid blue;
 
@@ -87,17 +87,19 @@ font-family: "Manrope", system-ui;
 
 .container-page1{
   position: absolute;
-  top: 150px; 
+  top: 240px; 
   width: 525px;
   height: 328px;
   border: 2px solid blueviolet ;
+
+  
 
 
 }
 
 .header-page1{
  font-size: 24px;
- padding-bottom: 1rem;
+ padding-bottom: 0.1rem;
 
 }
 
@@ -107,6 +109,113 @@ font-family: "Manrope", system-ui;
   gap: 1rem;
 
 }
+
+.content-page1{
+  padding-bottom: 3.5rem;
+}
+.iphone-container{
+
+  position: relative;
+
+  width: 750px;
+
+  height: 875px;
+  
+  
+}
+.iPhone-12{
+  position: absolute;
+  left: 970px;
+  top:90px;
+  z-index: 1000;
+}
+
+.iPhone-back{
+
+  position: absolute;
+  left:800px;
+  top:225px;
+  z-index: 0;
+
+
+}
+
+.box-vector{
+  height: 45px;
+  width: 45px;
+  border: 2px solid blue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6366F1;
+  border-radius: 50%;
+}
+
+.big-box-vector{
+display: flex;
+justify-content: center;
+align-items: center;
+  
+width: 152px;
+height: 45px;
+border: 2px solid blueviolet;
+
+position: absolute;
+
+top: 500px;
+
+
+}
+
+
+.wrapper-page2{
+  padding-inline: 3rem;
+    margin: 0 auto; 
+    max-width: 1320px;
+    height: 1100px;
+    border: 2px solid blue;
+    
+}
+
+.page-2-logo{
+  width: 1296px;
+  height: 100px;
+  border: 2px solid blue;
+  margin-top: 90px ;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.box-logo-page2{
+  width: 196px;
+  height: 100px;
+  border-radius: 8px;
+  border: 2px solid #B4B7C9;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+
+  
+}
+
+
+.container-content-page2{
+  width: 1296px;
+  height: 684px;
+  border: 2px solid blue;
+  margin-top: 6.7rem;
+
+}
+
+
+
 
 
 /*
