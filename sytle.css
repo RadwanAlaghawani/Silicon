@@ -54,12 +54,6 @@ font-family: "Manrope", system-ui;
     
 }
 
-
-
-
-
-
-
 .container-footer{
 
   
@@ -80,10 +74,21 @@ font-family: "Manrope", system-ui;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 .wrapper-page1{
   padding-inline: 3rem;
     margin: 0 auto; 
-    max-width: 1320px;
+    width: 1320px;
     height: 780px;
     border: 2px solid blue;
 
@@ -96,16 +101,11 @@ font-family: "Manrope", system-ui;
   width: 525px;
   height: 328px;
   border: 2px solid blueviolet ;
-
-  
-
-
 }
 
 .header-page1{
  font-size: 24px;
  padding-bottom: 0.1rem;
-
 }
 
 .btn-page1{
@@ -125,9 +125,7 @@ font-family: "Manrope", system-ui;
   width: 750px;
 
   height: 875px;
-  
-  
-}
+  }
 .iPhone-12{
   position: absolute;
   left: 970px;
@@ -141,8 +139,6 @@ font-family: "Manrope", system-ui;
   left:800px;
   top:225px;
   z-index: 0;
-
-
 }
 
 .box-vector{
@@ -167,17 +163,28 @@ height: 45px;
 border: 2px solid blueviolet;
 
 position: absolute;
-
 top: 500px;
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .wrapper-page2{
   padding-inline: 3rem;
     margin: 0 auto; 
-    max-width: 1320px;
+    width: 1320px;
     height: 1100px;
     border: 2px solid blue;
     
@@ -205,12 +212,7 @@ top: 500px;
   align-items: center;
   justify-content: center;
   
-  
-
-  
 }
-
-
 .container-content-page2{
   width: 1296px;
   height: 684px;
@@ -229,7 +231,6 @@ top: 500px;
   height: 640px;
   border: 2px solid blue;
   margin-bottom: 3rem;
-
 }
 
 .headline-inside-content-page2{
@@ -297,10 +298,17 @@ top: 500px;
 }
 
 
+
+
+
+
+
+
+
 .wrapper-page3{
   padding-inline: 3rem;
     margin: 0 auto; 
-    max-width: 1320px;
+    width: 1320px;
     height: 1100px;
     border: 2px solid blue;
 }
@@ -361,10 +369,16 @@ top: 500px;
 
 }
 
+
+
+
+
+
+
 .wrapper-page4{
     padding-inline: 3rem;
     margin: 0 auto; 
-    max-width: 1320px;
+    width: 1320px;
     height: 1297px;
     border: 2px solid blue;
     
@@ -389,7 +403,12 @@ top: 500px;
 
   margin-bottom: 4.5rem;
 
-   }
+  display: flex;
+  gap: 8rem;
+
+  }
+
+   
 
    .page4-part-top-left-contianer{
 
@@ -398,6 +417,36 @@ top: 500px;
   border: 2px solid blue;
 
   margin-top: 5.8rem;
+
+  
+
+   }
+
+
+   image-page4-inner{
+    z-index: 0;
+   }
+
+   .image-page4-upper{
+
+    z-index: 1000;
+
+    position: absolute;
+    left: 150px;
+    bottom: 40px;
+    
+    
+   }
+
+   .page4-part-top-right-image{
+    width:526px ;
+    height:500px ;
+    border: 2px solid blue;
+
+    position: relative;
+    
+    
+  
 
    }
 
@@ -408,9 +457,6 @@ top: 500px;
     border: 2px solid blue;
     font-size: 16px;
     font-weight: 800;
-
-
-
 
    }
 
@@ -425,15 +471,247 @@ top: 500px;
     margin-top: 2.4rem;
 
    }
-
-
-
-  .page4-part-bottom{
+    
+   .page4-part-bottom{
   width:1076px ;
   height: 500px;
   border: 2px solid blue;
 
+  display: flex;
+  align-items: center;
+  gap:1.2rem;
+
   }
+
+  .page4-part-bottom-left-picture{
+    width: 526px;
+    height: 500px;
+    border: 2px solid blue;
+    
+    position: relative;
+
+  }
+
+  .page4-part-bottom-right-content{
+    width: 526px;
+    height: 362px;
+    border: 2px solid blue;
+
+    
+    
+  }
+
+  .page4-inner-bottom-left-picture{
+    z-index: 0;
+  }
+
+  .page4-upper-bottom-left-picture{
+    z-index: 1000;
+    position: absolute;
+    top: 102px;
+    left: 192px;
+  }
+
+  
+
+  .page4-part-bottom-right-content2{
+    width: 526px;
+    height:158px ;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    }
+
+    .page4-box1,  .page4-box2   {
+      width:45px ;
+      height: 45px;
+      border: 2px solid blue;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-bottom: 1rem;
+
+    }
+
+    .page4-btn-bottom{
+
+      width: 159px;
+      height: 44px;
+      border-radius: 8px;
+      background-color: #6366F1 ;
+      color: white;
+      margin-top: 2.4rem;
+  
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .page5-Wrapper{
+      padding-inline: 3rem;
+        margin: 0 auto; 
+        width: 1320px;
+        height: 540px;
+        border: 2px solid blue;
+      }
+
+      .page5-headline{
+        width:306px ;
+        height:98px ;
+        border: 2px solid blue;
+        font-size: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-left: 20px;
+        margin-top: 90px;
+
+
+
+      }
+
+      .page5-container-rate{
+        width: 856px;
+        height: 350px;
+        border: 2px solid blue;
+
+        margin-left: 440px;
+        margin-top: -105px;
+
+        display: flex;
+        gap: 1.3rem;
+
+        position: relative;
+        
+
+        
+        
+
+      }
+
+      .page5-rate-box-left , .page5-rate-box-right{
+        width: 416px;
+        height:350px ;
+        border: 2px solid blue;
+        padding-inline: 1rem;
+
+        
+
+
+
+      }
+      
+      .page5-rate-box-left-box1{
+        width: auto;
+        height: auto;
+        border: 2px solid blue;
+        margin-top: 2.2rem;
+        margin-bottom: 2rem;
+
+      }
+
+      .page5-rate-box-left-box2{
+        
+        width: 368px;
+        height: 145px;
+        border: 2px solid blue;}
+
+      .page5-rate-box-left-box3{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        margin-top: 2.7rem;
+
+      }
+
+      .page5-rate-box-right-box3{
+
+        display: flex;
+        align-items: center;
+
+        gap: 1rem;
+
+        margin-top: 2.7rem;
+
+
+      }
+
+      .Albert-Flores{
+        font-weight: 800;
+      }
+
+      .Developer{
+        color:#9397AD ;
+      }
+
+      .box-quote1{
+
+        width: 44px;
+        height: 44px;
+        background-color: #6366F1 ;
+        display: flex;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 6px 16px -5px #6366f1e6;
+
+        position: absolute;
+        top: -20px;
+
+
+      }
+
+      .box-quote2{
+
+        width: 44px;
+        height: 44px;
+        border-radius: 6px;
+        background-color: #6366F1 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 6px 16px -5px #6366f2e6;
+
+        position: absolute;
+        top: -20px;
+        left: 460px;
+
+
+      }
+
+      
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
 
 
 
