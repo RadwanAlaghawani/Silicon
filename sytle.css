@@ -92,6 +92,9 @@ font-family: "Manrope", system-ui;
     height: 780px;
     border: 2px solid blue;
 
+    background: rgb(99,102,241);
+background: linear-gradient(0deg, rgba(99,102,241,0.1) 0%, rgba(218,70,239,0.05) 42%, rgba(241,244,253,0.07) 83%);
+
 
 }
 
@@ -101,11 +104,20 @@ font-family: "Manrope", system-ui;
   width: 525px;
   height: 328px;
   border: 2px solid blueviolet ;
+
+  
 }
 
 .header-page1{
- font-size: 24px;
+  width: 526px;
+  height: 146px;
+  border: 2px solid blueviolet ;
+ font-size: 25px;
  padding-bottom: 0.1rem;
+ font-weight: 900;
+ color: #0B0F19;
+
+
 }
 
 .btn-page1{
@@ -117,6 +129,8 @@ font-family: "Manrope", system-ui;
 
 .content-page1{
   padding-bottom: 3.5rem;
+  font-size: 18px;
+  color: #565973;
 }
 .iphone-container{
 
@@ -144,23 +158,25 @@ font-family: "Manrope", system-ui;
 .box-vector{
   height: 45px;
   width: 45px;
-  border: 2px solid blue;
+  
 
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #6366F1;
+  background-color: white;
   border-radius: 50%;
 }
 
 .big-box-vector{
 display: flex;
-justify-content: center;
+
 align-items: center;
+gap: 1rem;
+
   
-width: 152px;
+width: 200px;
 height: 45px;
-border: 2px solid blueviolet;
+border: 2px solid rgb(255, 255, 255);
 
 position: absolute;
 top: 500px;
@@ -234,17 +250,25 @@ top: 500px;
 }
 
 .headline-inside-content-page2{
-  width:259px ;
+  width:300px ;
   height: 52px;
   font-size: 25px;
   border: 2px solid blue;
   display: flex;
   align-items: center;
   padding-bottom: 1rem;
+
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .contnet-inside-content-page2{
   border: 2px solid blue;
+
+  font-size:18px ;
+  color: #9397AD ;
+  font-weight: 600;
+
 }
 
 .picture-inside-content-page2{
@@ -262,12 +286,23 @@ top: 500px;
   border: 2px solid blue;
   display: grid;
   grid-template-columns:  20% 80%;
+
+  font-size: 16px;
+  font-weight:700 ;
+  color: #9397AD ;
+}
+
+.page2-headline-2-coloum{
+  color: #0B0F19;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .image-framge-page2{
   width:60px ;
   height: 60px;
   border: 2px solid #6366F1;
+  background: #6366f114;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -311,6 +346,7 @@ top: 500px;
     width: 1320px;
     height: 1100px;
     border: 2px solid blue;
+    background-color: #F3F6FF;
 }
 
 .headline-page3{
@@ -318,11 +354,15 @@ top: 500px;
   height: 58px;
   border: 2px solid blue;
 
+  font-size: 24px ;
+  font-weight: 900 ;
+  color:  #0B0F19;
+
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 300px;
-  margin-top: 4em;
+  margin-top: 4rem;
   margin-bottom: 3rem;
 }
 
@@ -360,12 +400,22 @@ top: 500px;
   justify-content: center;
   margin-bottom: 0.6rem;
 
+  font-size:24px ;
+  font-weight:900 ;
+  color: #0B0F19;
+
 }
 
 .content-footer-page3{
   width:630px ;
   height: 46px;
   border: 2px solid blue;
+
+  font-size:16px ;
+  font-weight:700 ;
+  color: #565973;
+
+  
 
 }
 
@@ -455,8 +505,19 @@ top: 500px;
     width:416px ;
     height: 84px;
     border: 2px solid blue;
+
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 900;
+    color: #0B0F19 ;
+
+   }
+
+   .list-page4-part-top{
+
+    font-size: 16px;
+    font-weight: 700;
+    color: #33354D ;
+    
 
    }
 
@@ -532,6 +593,10 @@ top: 500px;
 
       margin-bottom: 1rem;
 
+     font-size: 16px ;
+     font-weight: 700 ;
+     color: #565973;
+
     }
 
     .page4-btn-bottom{
@@ -563,6 +628,8 @@ top: 500px;
         width: 1320px;
         height: 540px;
         border: 2px solid blue;
+        background-color: #F3F6FF;
+        
       }
 
       .page5-headline{
@@ -608,6 +675,17 @@ top: 500px;
         padding-inline: 1rem;
 
         
+        font-size:18px ;
+        font-weight:700 ;
+        color: #565973;
+
+        background-color: white;
+        
+        box-shadow: 0px 4.4px 12px -1px #1310220f, 0px 2px 6.4px -1px #13102208;
+
+
+
+        
 
 
 
@@ -620,13 +698,22 @@ top: 500px;
         margin-top: 2.2rem;
         margin-bottom: 2rem;
 
+        
+
+        
+
       }
 
       .page5-rate-box-left-box2{
         
         width: 368px;
         height: 145px;
-        border: 2px solid blue;}
+        border: 2px solid blue;
+        font-size: 18px;
+        font-weight:700 ;
+        color:#565973 ;
+      
+      }
 
       .page5-rate-box-left-box3{
         display: flex;
@@ -634,6 +721,10 @@ top: 500px;
         gap: 1rem;
 
         margin-top: 2.7rem;
+
+        font-size: 14px;
+        font-weight: 600 ;
+        color:#9397AD ;
 
       }
 
@@ -650,11 +741,16 @@ top: 500px;
       }
 
       .Albert-Flores{
-        font-weight: 800;
+        font-size: 16px;
+        font-weight: 900 ;
+        color:#0B0F19 ;
       }
 
       .Developer{
+        font-size: 14px;
+        font-weight: 600 ;
         color:#9397AD ;
+ ;
       }
 
       .box-quote1{
@@ -777,7 +873,7 @@ top: 500px;
         align-items: center;
         justify-content: center;
 
-        gap: 0;
+        
       }
 
       .page6-box-left-phone-icon{
@@ -799,7 +895,11 @@ top: 500px;
         display: flex;
         align-items: center;
         gap: 1rem;
+
+
         color: #6366F1;
+        font-size: 14;
+        font-weight: 600;
         
       }
 
@@ -822,6 +922,10 @@ top: 500px;
 
 
         display: grid;
+
+        font-size: 14px;
+        font-weight: 700;
+        color: #565973 ;
         
       }
 
@@ -834,6 +938,9 @@ top: 500px;
         display: flex;
         align-items: center;
         gap: 1rem;
+
+        font-size: 14px ;
+        font-weight: 600;
         color: #22C55E;
         
       }
@@ -866,7 +973,10 @@ top: 500px;
         width:415px;
         height:84px;
 
-        font-size: 27px;
+        font-size: 25px;
+        font-weight: 900;
+        color: #0B0F19;
+
         margin-top: 0;
 
         display: flex;
@@ -879,7 +989,10 @@ top: 500px;
       .page6-contnet-left-contnet{
         width:415px;
         height:54px;
+
         font-size: 18px;
+        font-weight: 700 ;
+        color: #565973 ;
 
 
 
@@ -907,7 +1020,9 @@ top: 500px;
 
       }
 
-      .page6-box3-headline{
+      .page6-box3-headline
+
+      {
 
         
         display: flex;
@@ -928,8 +1043,12 @@ top: 500px;
       .page6-content-box3{
         width:650px ;
         height:88px ;
+
+
         border: 2px solid blue;
         display: flex;
+
+
         align-items:center ;
         justify-content: center;
         padding-left: 1rem;
@@ -987,6 +1106,15 @@ top: 500px;
 
 
 
+
+
+
+
+
+
+
+
+
       .page7-wrapper{
         width: 1210px;
         height: 222px;
@@ -1003,6 +1131,8 @@ top: 500px;
         align-items: center;
         justify-content: center;
         gap:5rem;
+
+        background-color: #F3F6FF;
 
       }
 
