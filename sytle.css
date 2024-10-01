@@ -59,7 +59,7 @@ font-family: "Manrope", system-ui;
   
  
   position: absolute;
-  top: 5935px;
+  top: 5966px;
 
   display: flex;
   align-items: center;
@@ -691,6 +691,422 @@ top: 500px;
 
 
       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .page6-wrapper{
+
+        padding-inline: 3rem;
+        width: 1320px;
+        height: 818px; 
+      margin: 0  auto;
+
+        border: 2px solid blue;
+
+        display: flex;
+     align-items: center;
+     justify-content: center;
+
+      }
+
+
+      .page6-middle-container{
+        width: 1297px ;
+        height: 600px;
+        border: 2px solid blue;
+        display: flex;
+        gap: 7.8rem;
+      }
+
+      .page6-contnet-left{
+
+        width: 417px;
+        height: 380px;
+        border: 2px solid blue;
+        display: grid;
+        gap: 2.2rem;
+        
+
+      }
+
+      .page6-contnet-right{
+
+        width: 746px;
+        height: 600px;
+        border: 2px solid blue;
+        display: grid;
+        gap: 0.5rem;
+
+        
+
+      }
+
+      .page6-container-box-left-right{
+        width: 416px;
+        height: 167px;
+        border: 2px solid blue;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 1rem;
+
+      }
+
+      
+
+      .page6-box-left{
+        width:196px;
+        height:166px;
+        border: 2px solid blue;
+
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+        gap: 0;
+      }
+
+      .page6-box-left-phone-icon{
+        width: 160px;
+        height:68px;
+        border: 2px solid blue;
+
+
+        display: grid;
+        
+      }
+
+      .page6-box-left-info{
+
+        width: 120px;
+        height:44px;
+        border: 2px solid blue;
+        
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: #6366F1;
+        
+      }
+
+      .page6-box-right{
+        width:196px;
+        height:166px;
+        border: 2px solid blue;
+
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+        gap: 0;
+      }
+
+      .page6-box-right-phone-icon{
+        width: 180px;
+        height:68px;
+        border: 2px solid blue;
+
+
+        display: grid;
+        
+      }
+
+      .page6-box-right-info{
+
+        width: 120px;
+        height:44px;
+        border: 2px solid blue;
+        
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: #22C55E;
+        
+      }
+        
+
+
+       
+
+        
+        
+
+        
+        
+     
+
+      
+
+      
+
+      .page6-box-right{
+
+        width:196px;
+        height:166px;
+        border: 2px solid blue;
+
+      }
+
+      .page6-contnet-left-headline{
+
+        width:415px;
+        height:84px;
+
+        font-size: 27px;
+        margin-top: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+      }
+
+      .page6-contnet-left-contnet{
+        width:415px;
+        height:54px;
+        font-size: 18px;
+
+
+
+      }
+
+
+
+
+
+
+
+
+      .page6-box3{
+        width:730px;
+        height:180px;
+        border: 2px solid blue;
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1rem;
+
+        box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03);
+        border-radius: 8px;
+
+      }
+
+      .page6-box3-headline{
+
+        
+        display: flex;
+        align-items: center;
+        gap: 27.5rem;
+        padding-left: 1rem;
+
+        width:730px;
+        height:68px;
+        border: 2px solid blue;
+
+        font-size: 16px;
+
+        
+
+      }
+
+      .page6-content-box3{
+        width:650px ;
+        height:88px ;
+        border: 2px solid blue;
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 14px;
+
+      
+ 
+
+       
+      }
+
+      .page6-box1 , .page6-box2 , .page6-box4 , .page6-box5 , .page6-box6   {
+        width:730px;
+        height:68px;
+        border: 2px solid blue;
+
+        display: flex;
+        align-items: center;
+        gap: 2.6rem;
+        
+        
+        
+
+        padding-left: 1rem;
+
+        box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03);
+         border-radius: 8px;
+        
+
+      }
+
+      .page6-content-boxes{
+        width:638px ;
+        height:26 ;
+        border: 2px solid blue;
+       
+      }
+
+      
+
+      .page6-arrow-box{
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background-color: #6366F1 ;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+      }
+
+
+
+
+      .page7-wrapper{
+        width: 1210px;
+        height: 222px;
+        border-radius: 8px;
+
+        margin: 0 auto;
+        padding-inline: 3rem;
+
+        border: 2px solid blue;
+
+        padding-inline: 110px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:5rem;
+
+      }
+
+      .page7-left-container{
+        width: 526px ;
+        height:78px ;
+        border: 2px solid blue;
+
+        display: flex;
+        align-items: center;
+        gap: 2.625rem
+      }
+
+      .page7-left-container-content{
+
+        width: 416px ;
+        height:68px ;
+        border: 2px solid blue;
+        font-size: 23px;
+        font-weight: 800;
+
+
+      }
+
+
+
+
+      .page7-right-container{
+        width: 472px ;
+        height:52px ;
+        border: 2px solid blue;
+
+        display: flex;
+        align-items: center;
+
+        position: relative;
+        
+      }
+
+      .form-email{
+
+        width: 331px ;
+        height: 47px;
+        border-radius: 8px;
+        z-index: 0;
+
+      }
+
+      .form-btn{
+
+        width: 160px ;
+        height:52px ;
+        border-radius: 8px;
+        z-index: 1000;
+
+        position: absolute;
+        left: 320px;
+
+        background-color: #6366F1;
+        color: white;
+
+        font-size: 16px;
+
+
+
+      }
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+      
+
+      
+
+
+
+        
+
+        
+
+
+     
+
+
+
+
+
+
+
+
+
+
 
       
 
