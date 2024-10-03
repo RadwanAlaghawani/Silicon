@@ -149,13 +149,12 @@ input:focus + .slider {
 
 .container-footer{
   
-  position: absolute;
-  top: 5966px;
+  
 
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid blueviolet;
+  
   
 
   width: 100%;
@@ -174,7 +173,13 @@ input:focus + .slider {
 
 
 
+.page1-background{
+  background: linear-gradient(0deg, rgba(99,102,241,0.1) 0%, rgba(218,70,239,0.05) 42%, rgba(241,244,253,0.07) 83%);
+  z-index: 0;
+  width: 100%;
+  height: 780px;
 
+}
 
 
 .wrapper-page1{
@@ -182,24 +187,22 @@ input:focus + .slider {
     margin: 0 auto; 
     width: 1320px;
     height: 780px;
-    border: 2px solid blue;
+    z-index: 1000;
+    }
 
-    background: rgb(99,102,241);
-    background: linear-gradient(0deg, rgba(99,102,241,0.1) 0%, rgba(218,70,239,0.05) 42%, rgba(241,244,253,0.07) 83%);
-}
 
 .container-page1{
   position: absolute;
   top: 240px; 
   width: 525px;
   height: 328px;
-  border: 2px solid blueviolet ;
+  
 }
 
 .header-page1{
   width: 526px;
   height: 146px;
-  border: 2px solid blueviolet ;
+  
  
   padding-bottom: 0.1rem;
 
@@ -265,9 +268,9 @@ align-items: center;
 gap: 1rem;
 
   
-max-width: 200px;
+width: 200px;
 height: 45px;
-border: 2px solid rgb(255, 255, 255);
+
 
 position: absolute;
 top: 500px;
@@ -293,14 +296,14 @@ top: 500px;
     margin: 0 auto; 
     width: 1320px;
     height: 1100px;
-    border: 2px solid blue;
+    
     
 }
 
 .page-2-logo{
   width: 1296px;
   height: 100px;
-  border: 2px solid blue;
+  
   margin-top: 90px ;
 
   display: flex;
@@ -323,7 +326,7 @@ top: 500px;
 .container-content-page2{
   width: 1296px;
   height: 684px;
-  border: 2px solid blue;
+  
   margin-top: 6.7rem;
   display: grid;
   grid-template-columns: 30% 70%;
@@ -336,7 +339,7 @@ top: 500px;
 .inside-content-page2{
   width: 746px;
   height: 640px;
-  border: 2px solid blue;
+  
   margin-bottom: 3rem;
 }
 
@@ -344,7 +347,7 @@ top: 500px;
   width:300px ;
   height: 52px;
   font-size: 25px;
-  border: 2px solid blue;
+  
   display: flex;
   align-items: center;
   padding-bottom: 1rem;
@@ -354,7 +357,7 @@ top: 500px;
 }
 
 .contnet-inside-content-page2{
-  border: 2px solid blue;
+  
 
   font-size:18px ;
   color: #9397AD ;
@@ -365,7 +368,7 @@ top: 500px;
 .picture-inside-content-page2{
   width:727px ;
   height: 450px;
-  border: 2px solid blue;
+  
   margin-top: 2rem;
   display: grid;
   grid-template-columns:  1fr 1fr;
@@ -374,7 +377,7 @@ top: 500px;
 .box1-page2,  .box2-page2,  .box3-page2,  .box4-page2,  .box5-page2, .box6-page2 {
   width:345px ;
   height: 118px;
-  border: 2px solid blue;
+  
   display: grid;
   grid-template-columns:  20% 80%;
 
@@ -392,7 +395,7 @@ top: 500px;
 .image-framge-page2{
   width:60px ;
   height: 60px;
-  border: 2px solid #6366F1;
+  
   background: #6366f114;
   border-radius: 8px;
   display: flex;
@@ -403,7 +406,7 @@ top: 500px;
 .content-box-page2{
   width:261px ;
   height: 118px;
-  border: 2px solid #6366F1;
+  
   display: grid;
   grid-template-rows: 2fr 8fr;
   align-items: center;
@@ -413,7 +416,7 @@ top: 500px;
 .headline-box-contnet-page2{
   width:auto;
   height: 40px;
-  border: 2px solid #6366F1;
+  
    display: flex;
   align-items: center;
   
@@ -428,6 +431,23 @@ top: 500px;
 
 
 
+
+
+
+
+
+
+
+.page3-background{
+  background-color: #F3F6FF;
+
+  z-index: 0;
+
+  width: 100%;
+  height: 1100px;
+
+}
+
 .wrapper-page3{
     padding-inline: 3rem;
     margin: 0 auto; 
@@ -435,14 +455,16 @@ top: 500px;
     width: 1320px;
     height: 1100px;
 
-    border: 2px solid blue;
-    background-color: #F3F6FF;
+    z-index: 1000;
+
+    
+    
 }
 
 .headline-page3{
   width:680px ;
   height: 58px;
-  border: 2px solid blue;
+  
 
   font-size: 24px ;
   font-weight: 900 ;
@@ -459,7 +481,7 @@ top: 500px;
 .picture-page3{
   width:1184px ;
   height: 663px;
-  border: 2px solid blue;
+  
 
   margin-left: 3.5rem;
 
@@ -473,7 +495,7 @@ top: 500px;
   width:636px ;
   height: 98px;
 
-  border: 2px solid blue;
+  
 
   margin-left: 380px;
   margin-top: 47px;
@@ -482,14 +504,14 @@ top: 500px;
 .headline-footer-page3{
   width:100% ;
   height: 35px;
-  border: 2px solid blue;
+  
 
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 0.6rem;
 
-  font-size:24px ;
+  font-size: 18px ;
   font-weight:900 ;
   color: #0B0F19;
 }
@@ -497,7 +519,7 @@ top: 500px;
 .content-footer-page3{
   width:630px ;
   height: 46px;
-  border: 2px solid blue;
+  
 
   font-size:16px ;
   font-weight:700 ;
@@ -528,7 +550,7 @@ top: 500px;
     margin: 0 auto; 
     width: 1320px;
     height: 1297px;
-    border: 2px solid blue;
+    
     
      display: flex;
      align-items: center;
@@ -539,13 +561,13 @@ top: 500px;
   width:1076px ;
   height: 1080px;
 
-  border: 2px solid blue;
+  
 }
 
   .page4-part-top{
   width:1076px ;
   height: 500px;
-  border: 2px solid blue;
+  
 
   margin-bottom: 4.5rem;
 
@@ -558,7 +580,7 @@ top: 500px;
 
   width:416px ;
   height: 302px;
-  border: 2px solid blue;
+  
 
   margin-top: 5.8rem;
   }
@@ -580,7 +602,7 @@ top: 500px;
    .page4-part-top-right-image{
     width:526px ;
     height:500px ;
-    border: 2px solid blue;
+    
 
     position: relative;
     }
@@ -589,7 +611,7 @@ top: 500px;
 
     width:416px ;
     height: 84px;
-    border: 2px solid blue;
+    
 
     font-size: 16px;
     font-weight: 900;
@@ -624,7 +646,7 @@ top: 500px;
    .page4-part-bottom{
   width:1076px ;
   height: 500px;
-  border: 2px solid blue;
+  
 
   display: flex;
   align-items: center;
@@ -635,7 +657,7 @@ top: 500px;
   .page4-part-bottom-left-picture{
     width: 526px;
     height: 500px;
-    border: 2px solid blue;
+    
     
     position: relative;
    }
@@ -644,7 +666,7 @@ top: 500px;
     width: 526px;
     height: 362px;
 
-    border: 2px solid blue;
+    
   }
 
   .page4-inner-bottom-left-picture{
@@ -678,7 +700,7 @@ top: 500px;
     .page4-box1,  .page4-box2   {
       width:45px ;
       height: 45px;
-      border: 2px solid blue;
+      
       border-radius: 8px;
       display:flex;
       align-items: center;
@@ -720,7 +742,15 @@ top: 500px;
 
 
 
+  .page5-backgound{
 
+    width: 100%;
+    height: 540px;
+    background-color: #F3F6FF;
+
+    z-index: 0;
+
+  }
 
     .page5-Wrapper{
         padding-inline: 3rem;
@@ -729,44 +759,49 @@ top: 500px;
         width: 1320px;
         height: 540px;
 
-        border: 2px solid blue;
-        background-color: #F3F6FF;
+        border: 2px solid #F3F6FF;
+        z-index: 1000;
+
+        
+        
         
       }
 
       .page5-headline{
         width:306px ;
         height:98px ;
-        border: 2px solid blue;
+        
         font-size: 25px;
 
         display: flex;
         justify-content: center;
         align-items: center;
-
+        
         margin-left: 20px;
-        margin-top: 90px;
-       }
+        margin-top: 100px;
+
+        }
 
       .page5-container-rate{
         width: 856px;
         height: 350px;
-        border: 2px solid blue;
 
+        
         margin-left: 440px;
-        margin-top: -105px;
 
         display: flex;
         gap: 1.3rem;
 
         position: relative;
+        top: -102px;
        }
 
       .page5-rate-box-left , .page5-rate-box-right{
         width: 416px;
         height:350px ;
-        border: 2px solid blue;
+        
         padding-inline: 1rem;
+        border-radius: 8px;
 
         
         font-size:18px ;
@@ -782,7 +817,7 @@ top: 500px;
         width: auto;
         height: auto;
 
-        border: 2px solid blue;
+        
 
         margin-top: 2.2rem;
         margin-bottom: 2rem;
@@ -792,7 +827,7 @@ top: 500px;
         width: 368px;
         height: 145px;
 
-        border: 2px solid blue;
+        
         
         font-size: 18px;
         font-weight:700 ;
@@ -893,7 +928,7 @@ top: 500px;
         height: 818px; 
         margin: 0  auto;
 
-        border: 2px solid blue;
+        
 
         display: flex;
         align-items: center;
@@ -905,7 +940,7 @@ top: 500px;
         width: 1297px ;
         height: 600px;
 
-        border: 2px solid blue;
+        
 
         display: flex;
         gap: 7.8rem;
@@ -916,7 +951,7 @@ top: 500px;
         width: 417px;
         height: 380px;
 
-        border: 2px solid blue;
+        
 
         display: grid;
         gap: 2.2rem;
@@ -927,7 +962,7 @@ top: 500px;
         width: 746px;
         height: 600px;
 
-        border: 2px solid blue;
+       
 
         display: grid;
         gap: 0.5rem;
@@ -937,7 +972,7 @@ top: 500px;
 
         width: 416px;
         height: 167px;
-        border: 2px solid blue;
+        
        
         display: flex;
         align-items: center;
@@ -948,11 +983,10 @@ top: 500px;
       
 
       .page6-box-left{
+
         width:196px;
         height:166px;
-
-        border: 2px solid blue;
-
+        
         display: grid;
         align-items: center;
         justify-content: center;
@@ -962,7 +996,7 @@ top: 500px;
         width: 160px;
         height:68px;
 
-        border: 2px solid blue;
+        
 
         display: grid;
         
@@ -972,7 +1006,7 @@ top: 500px;
 
         width: 120px;
         height:44px;
-        border: 2px solid blue;
+        
         
         display: flex;
         align-items: center;
@@ -988,7 +1022,7 @@ top: 500px;
         width:196px;
         height:166px;
 
-        border: 2px solid blue;
+        
 
         display: grid;
         align-items: center;
@@ -1001,7 +1035,7 @@ top: 500px;
         width: 180px;
         height:68px;
 
-        border: 2px solid blue;
+        
         
         display: grid;
 
@@ -1014,7 +1048,7 @@ top: 500px;
 
         width: 120px;
         height:44px;
-        border: 2px solid blue;
+        
         
         display: flex;
         align-items: center;
@@ -1024,27 +1058,12 @@ top: 500px;
         font-weight: 600;
         color: #22C55E;
       }
-        
-
-
-       
-
-        
-        
-
-        
-        
-     
-
       
-
-      
-
       .page6-box-right{
         
         width:196px;
         height:166px;
-        border: 2px solid blue;
+        
       }
 
       .page6-contnet-left-headline{
@@ -1075,7 +1094,7 @@ top: 500px;
       .page6-box3{
         width:730px;
         height:180px;
-        border: 2px solid blue;
+        
 
         display: grid;
         justify-content: center;
@@ -1092,13 +1111,13 @@ top: 500px;
       {
         width:720px;
         height:68px;
-        border: 2px solid blue;
+        
         
         display: flex;
         align-items: center;
         gap: 26.4rem;
 
-        padding-left: 1rem;
+        
         
         font-size: 16px;
         font-weight: 900;
@@ -1109,16 +1128,17 @@ top: 500px;
         width:650px ;
         height:88px ;
         
-        border: 2px solid blue;
+        
         display: flex;
         
         align-items:center ;
         justify-content: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 0.2rem;
+        padding-right: 0.5rem;
+        padding-bottom:2rem;
         
         font-size: 14px;
-        font-weight: 700;
+        font-weight: 400;
         color: #565973; 
       }
 
@@ -1126,7 +1146,7 @@ top: 500px;
 
         width:730px;
         height:68px;
-        border: 2px solid blue;
+        
 
         display: flex;
         align-items: center;
@@ -1146,8 +1166,7 @@ top: 500px;
 
         width: 638px;
         height: 26px;
-
-        border: 2px solid blue;
+      
       }
       
       .page6-arrow-box{
@@ -1196,7 +1215,7 @@ top: 500px;
 
         margin: 0 auto;
         
-        border: 2px solid blue;
+        
 
         padding-inline: 105px;
 
@@ -1212,7 +1231,7 @@ top: 500px;
 
         width: 526px ;
         height:78px ;
-        border: 2px solid blue;
+        
 
         display: flex;
         align-items: center;
@@ -1223,7 +1242,7 @@ top: 500px;
 
         width: 416px ;
         height:68px ;
-        border: 2px solid blue;
+        
         
         font-size: 23px;
         font-weight: 800;
@@ -1233,7 +1252,7 @@ top: 500px;
       .page7-right-container{
         width: 472px;
         height:52px;
-        border: 2px solid blue;
+        
 
         display: flex;
         align-items: center;
