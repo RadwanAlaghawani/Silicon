@@ -16,7 +16,7 @@ font-family: "Manrope", system-ui;
 }
 
 .container-header{
-    padding-inline: 3rem;
+    
     margin: 0 auto; 
     width: 1320px;
 
@@ -131,7 +131,7 @@ font-family: "Manrope", system-ui;
 
 /* 5 */
 input[type = "checkbox"]:checked + .slider {
-  background-color: #2196F3;
+  background-color: #6366F1;
 }
     /* 6 */
   input[type = "checkbox"]:checked + .slider:before {
@@ -142,7 +142,7 @@ input[type = "checkbox"]:checked + .slider {
 
 /* 7 */
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #6366F1;
 }
 
 
@@ -173,6 +173,14 @@ input:focus + .slider {
 
 
 
+
+
+
+
+
+
+
+
 .page1-background{
   background: linear-gradient(0deg, rgba(99,102,241,0.1) 0%, rgba(218,70,239,0.05) 42%, rgba(241,244,253,0.07) 83%);
   z-index: 0;
@@ -183,11 +191,14 @@ input:focus + .slider {
 
 
 .wrapper-page1{
-    padding-inline: 3rem;
+   
     margin: 0 auto; 
     width: 1320px;
     height: 780px;
     z-index: 1000;
+
+    
+   
     }
 
 
@@ -226,25 +237,28 @@ input:focus + .slider {
 }
 .iphone-container{
 
+  
+  
   position: relative;
-
   width: 750px;
-
   height: 875px;
   }
 .iPhone-12{
   
   position: absolute;
-  left: 970px;
+  left: 920px;
   top:90px;
   z-index: 1000;
+
+  width: 50%;
+  height: 50%;
 }
 
 .iPhone-back{
   
 
   position: absolute;
-  left:800px;
+  left:750px;
   top:225px;
   z-index: 0;
 }
@@ -292,10 +306,11 @@ top: 500px;
 
 
 .wrapper-page2{
-  padding-inline: 3rem;
+  
     margin: 0 auto; 
     width: 1320px;
     height: 1100px;
+    border: 1px solid white;
     
     
 }
@@ -441,6 +456,8 @@ top: 500px;
 .page3-background{
   background-color: #F3F6FF;
 
+  
+
   z-index: 0;
 
   width: 100%;
@@ -449,8 +466,10 @@ top: 500px;
 }
 
 .wrapper-page3{
-    padding-inline: 3rem;
+    
     margin: 0 auto; 
+
+    border: 1px solid #F3F6FF;
 
     width: 1320px;
     height: 1100px;
@@ -495,10 +514,12 @@ top: 500px;
   width:636px ;
   height: 98px;
 
+  border: 1px solid #F3F6FF;
+
   
 
-  margin-left: 380px;
-  margin-top: 47px;
+  margin-left: 330px;
+  margin-top: 50px;
 }
 
 .headline-footer-page3{
@@ -517,7 +538,7 @@ top: 500px;
 }
 
 .content-footer-page3{
-  width:630px ;
+  width:620px;
   height: 46px;
   
 
@@ -546,7 +567,7 @@ top: 500px;
 
 
 .wrapper-page4{
-    padding-inline: 3rem;
+    
     margin: 0 auto; 
     width: 1320px;
     height: 1297px;
@@ -753,7 +774,7 @@ top: 500px;
   }
 
     .page5-Wrapper{
-        padding-inline: 3rem;
+        
         margin: 0 auto;
 
         width: 1320px;
@@ -923,7 +944,7 @@ top: 500px;
 
       .page6-wrapper{
 
-        padding-inline: 3rem;
+        
         width: 1320px;
         height: 818px; 
         margin: 0  auto;
@@ -1209,7 +1230,7 @@ top: 500px;
 
       .page7-wrapper{
 
-        width: 1210px;
+        width: 1080px;
         height: 222px;
         border-radius: 8px;
 
